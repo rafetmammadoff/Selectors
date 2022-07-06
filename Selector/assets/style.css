@@ -1,0 +1,55 @@
+body {
+  background-color: #1d1c1b;
+}
+
+body h4 {
+  font-size: 25px;
+  color: aqua;
+}
+
+body h1 {
+  color: aqua;
+  font-size: 40px;
+}
+
+body span {
+  color: yellow;
+}
+
+body p, body ul, body ol {
+  color: white;
+}
+
+body .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .images .sad-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 40px;
+}
+
+body .images .happy-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .images .happy-part img {
+  width: 225px;
+  height: 225px;
+}
+/*# sourceMappingURL=style.css.map */

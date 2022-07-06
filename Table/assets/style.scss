@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(45, 45, 165);
+    text-align: center;
+    h1{
+        color: white;
+    }
+    .table-area{
+        display: flex;
+        justify-content: center;
+        table{
+            background-color: #b2b2b2;
+            background-clip: border-box;
+            thead{
+                th{
+                    width: 244px;
+                    height: 25px;
+                    color: white;
+                }
+                th:nth-child(2n+1) {
+                    background: rgb(43, 42, 42);
+                    background-clip: border-box;
+                }
+                th:nth-child(2n) {
+                    background: aqua;
+                    background-clip: border-box;
+                }
+            }
+            tbody{
+                td{
+                    height: 25px;
+                }
+                tr{
+                    background-color: #fff;
+                }
+                tr:nth-child(2n){
+                    background-color: #b2b2b2;
+                }
+            }
+            
+            
+        }
+    }
+}
