@@ -17,18 +17,19 @@ body .table-area {
 }
 
 body .table-area table {
-  background-color: #b2b2b2;
+  background-color: #fff;
   background-clip: border-box;
+  border-collapse: collapse;
 }
 
 body .table-area table thead th {
   width: 244px;
-  height: 25px;
+  height: 35px;
   color: white;
 }
 
 body .table-area table thead th:nth-child(2n+1) {
-  background: #2b2a2a;
+  background: #020644;
   background-clip: border-box;
 }
 
@@ -38,7 +39,7 @@ body .table-area table thead th:nth-child(2n) {
 }
 
 body .table-area table tbody td {
-  height: 25px;
+  height: 30px;
 }
 
 body .table-area table tbody tr {
@@ -46,6 +47,6 @@ body .table-area table tbody tr {
 }
 
 body .table-area table tbody tr:nth-child(2n) {
-  background-color: #b2b2b2;
+  background-color: #f2f2f2;
 }
 /*# sourceMappingURL=style.css.map */

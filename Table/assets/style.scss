@@ -8,16 +8,18 @@ body{
         display: flex;
         justify-content: center;
         table{
-            background-color: #b2b2b2;
+            background-color: #fff;
             background-clip: border-box;
+            border-collapse: collapse;
+
             thead{
                 th{
                     width: 244px;
-                    height: 25px;
+                    height: 35px;
                     color: white;
                 }
                 th:nth-child(2n+1) {
-                    background: rgb(43, 42, 42);
+                    background: rgb(2, 6, 68);
                     background-clip: border-box;
                 }
                 th:nth-child(2n) {
@@ -27,13 +29,13 @@ body{
             }
             tbody{
                 td{
-                    height: 25px;
+                    height: 30px;
                 }
                 tr{
                     background-color: #fff;
                 }
                 tr:nth-child(2n){
-                    background-color: #b2b2b2;
+                    background-color: #f2f2f2;
                 }
             }
             
